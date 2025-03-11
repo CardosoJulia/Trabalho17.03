@@ -1,0 +1,13 @@
+body {
+    background-color: hsl(0, 100%, 99%);
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ul{
+    display: flex; /*COLOCA A LISTA DAS COISAS DO NAVBAR UMA DO LADO DA OUTRA*/
+    justify-content: space-around; /*DA UM ESPAÇO ENTRE ELES*/
+    list-style-type: none; /*TIRA A BOLINHA DE TOPICO*/
+    align-items: center; /*ALINHA TOPICOS DE LINK NO CENTRO DA PÁGINA*/
+    padding: 16px;
+}
