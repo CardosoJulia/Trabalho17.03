@@ -1,6 +1,5 @@
 body {
-    background-color: hsl(0, 100%, 99%);
-    color: #000000;
+    background-color: hsl(0, 0%, 0%);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -11,3 +10,38 @@ ul{
     align-items: center; /*ALINHA TOPICOS DE LINK NO CENTRO DA PÁGINA*/
     padding: 16px;
 }
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+a{
+    color: white; /*Cor da letra*/
+    text-decoration: none; /*Tira sublinhado*/
+}
+.foto img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /*Deixa a borda redonda*/
+    border: 3px solid #5f2bbe; /*Coloca borda colorida*/
+    display: flex;
+    
+}
+.nome{
+color: #4c18ac;
+display: flex;
+
+}
+.enfeite{
+    position: absolute;
+    bottom:-78%;
+    right:-750PX;
+    width:1300px; /*LARGURA*/
+    height: 1300px; /*ALTURA*/
+    border-radius: 50%;
+    background-color: #4c18ac;
+}
+
+
