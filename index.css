@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(0, 0%, 0%);
+    background-color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -9,15 +9,18 @@ ul{
     list-style-type: none; /*TIRA A BOLINHA DE TOPICO*/
     align-items: center; /*ALINHA TOPICOS DE LINK NO CENTRO DA PÁGINA*/
     padding: 16px;
+    font-size:20px;
+ 
 }
 li{
     padding: 10px; /*espaçamento interno*/
+    
 
 }
 li:hover{ /*efeitinho*/
-    background-color: plum;
+    background-color: hwb(261 44% 5%);
     border-radius: 100px;
-     
+    color: aliceblue;
    
 }
 html,body{
@@ -27,31 +30,84 @@ html,body{
 
 }
 a{
-    color: white; /*Cor da letra*/
+    color: #ffffff; /*Cor da letra*/
     text-decoration: none; /*Tira sublinhado*/
 }
 .foto img{
 
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%; /*Deixa a borda redonda*/
-    border: 3px solid #5f2bbe; /*Coloca borda colorida*/
+    /*border: 3px solid #5f2bbe; /*Coloca borda colorida*/
     display: flex;
-    
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-items: center; /* Centraliza a imagem e o texto */
+    justify-content: center;
+    margin-top: 50px; /* Ajusta o espaçamento do topo */
+    margin-top: 140px;
+    margin-left: 20px;
 }
 .nome{
-color: #4c18ac;
-display: flex;
-
+color: hsl(0, 0%, 91%);
+line-height: 30px;
+font-size: 30px;
 }
+
+.conteudo {
+    margin-top: 140px; /* Aumente esse valor para descer mais */
+   /* Centraliza o conteúdo */
+    padding: 40px; /* Adiciona espaço interno ao redor do texto */
+}
+
+h2{
+line-height: 10px;
+color: #4c18ac;
+margin-top: -30px;
+margin-left: 238px;
+}
+.conteudo h3{
+    text-align: left;
+    line-height: 9px;
+    color: hsl(261, 49%, 50%);
+    margin-left: 238px;
+    }
+.conteudo p{
+    text-indent: 20px; /* Pequeno recuo inicial */
+margin-left: 238px;
+}
+    
 .enfeite{
     position: absolute;
-    bottom:-78%;
+    bottom: -100%;
     right:-750PX;
     width:1300px; /*LARGURA*/
     height: 1300px; /*ALTURA*/
     border-radius: 50%;
     background-color: #4c18ac;
 }
+
+footer {
+    position: relative; /* Define o footer como referência */
+}
+
+footer img{ /* GATINHO GIT */
+    width: 50px;
+    height: 50px;
+    position: absolute; /* Permite posicionamento livre */
+    top: 240px; /* COLOCA MAIS PARA BAIXO, QUANTO MAIOR, MAIS PARA BAIXO*/
+    right: 320px; /* Empurra para a direita */
+    filter: invert(1); /* Torna a imagem branca */
+}
+.linkedin img{ /* linkediinnn */
+    width: px;
+    height: 50px;
+    position: absolute; /* Permite posicionamento livre */
+    top: 805px; /* COLOCA MAIS PARA BAIXO, QUANTO MAIOR, MAIS PARA BAIXO*/
+    right: 200px; /* Empurra para a direita */
+
+}
+
 
 
